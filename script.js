@@ -5,9 +5,6 @@
 // Configuración de la fecha del evento (EDITABLE)
 const FECHA_EVENTO = new Date(2025, 9, 11, 20, 0, 0).getTime();
 
-// Configuración de WhatsApp (EDITABLE)
-const TELEFONO_WHATSAPP = '+540385154971420'; // Reemplazar con número real
-
 // Configuración de música (EDITABLE)
 const PLAYLIST = [
     {
@@ -354,6 +351,7 @@ function inicializarAplicacion() {
 // Iniciar la aplicación cuando el DOM esté listo
 
 document.addEventListener('DOMContentLoaded', inicializarAplicacion);
+
 
 
 
